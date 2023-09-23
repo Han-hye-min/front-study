@@ -1,0 +1,79 @@
+h1{
+    font-size:50px;
+    text-align: center;
+    border-bottom:1px solid black;
+    padding:10px;
+    margin:0%;
+    color:blue;
+    font-family:'IAMAPLAYER';
+}
+body{
+    font-size: large;
+    margin: 0px;
+}
+.background{
+    width: 100%;
+    height: 1000px;
+    background-image:url("aven.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+@font-face {
+    font-family: 'IAMAPLAYER';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    font-size: larger;
+    text-align: center;
+}
+#side-bar{
+    min-width: 230px;
+    display:flex;
+    flex-direction: column;
+}
+.sidebar {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+/* html이란? 텍스트의 박스를 지정 */
+.tag1{
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black;
+}
+/*체크를 했을 때 내용이 뜨게 표시하는 코드*/
+#html1{display:none;}
+#html1:checked + .content{display:block;}
+.content{display:none;}
+.tag2{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black;
+}
+#html2{display:none;}
+#html2:checked + .content{display:block;}
+.content{display:none;}
+.tag3{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html3{display:none;}
+#html3:checked + .content{display: block;}
+.content{display:none;}
+/* 부모 태그 flex로 해서 자식 두 태그를 inline으로 만들기 */
+#mom{
+    display: flex;
+}
+.content{
+    padding-left: 0;
+}

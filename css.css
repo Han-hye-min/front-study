@@ -1,0 +1,26 @@
+h1{
+    font-size:50px;
+    text-align: center;
+    border-bottom:1px solid black;
+    padding:10px;
+    margin:0%;
+    color:blue;
+    font-family:'IAMAPLAYER';
+}
+body{
+    font-size: large;
+}
+.background{
+    width: 100%;
+    height: auto;
+    background-image:url("aven.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+@font-face {
+    font-family: 'IAMAPLAYER';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
