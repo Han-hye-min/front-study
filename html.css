@@ -70,10 +70,140 @@ p{
 #html3{display:none;}
 #html3:checked + .content{display: block;}
 .content{display:none;}
+.tag4{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html4{display:none;}
+#html4:checked + .content{display: block;}
+.content{display:none;}
+.tag5{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html5{display:none;}
+#html5:checked + .content{display: block;}
+.content{display:none;}
+.tag6{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html6{display:none;}
+#html6:checked + .content{display: block;}
+.content{display:none;}
+.tag7{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html7{display:none;}
+#html7:checked + .content{display: block;}
+.content{display:none;}
+.tag8{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html8{display:none;}
+#html8:checked + .content{display: block;}
+.content{display:none;}
+.tag9{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html9{display:none;}
+#html9:checked + .content{display: block;}
+.content{display:none;}
+.tag10{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html10{display:none;}
+#html10:checked + .content{display: block;}
+.content{display:none;}
+.tag11{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html11{display:none;}
+#html11:checked + .content{display: block;}
+.content{display:none;}
+.tag12{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html12{display:none;}
+#html12:checked + .content{display: block;}
+.content{display:none;}
+.tag13{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html13{display:none;}
+#html13:checked + .content{display: block;}
+.content{display:none;}
+.tag14{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html14{display:none;}
+#html14:checked + .content{display: block;}
+.content{display:none;}
+.tag15{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html15{display:none;}
+#html15:checked + .content{display: block;}
+.content{display:none;}
+.tag16{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html16{display:none;}
+#html16:checked + .content{display: block;}
+.content{display:none;}
+.tag17{
+    flex:1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black; 
+}
+#html17{display:none;}
+#html17:checked + .content{display: block;}
+.content{display:none;}
+
 /* 부모 태그 flex로 해서 자식 두 태그를 inline으로 만들기 */
 #mom{
     display: flex;
 }
 .content{
     padding-left: 0;
+}
+h5{
+    text-align: center;
 }

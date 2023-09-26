@@ -14,7 +14,7 @@
         <div id="mom">
         <section id="side-bar">
         <div class="sidebar">
-            HTML
+            HTML(배운거 위주에 태그 정리)
         </div>
             <div class="tag1">
                 <label for="html1">html이란?</label>
@@ -23,24 +23,156 @@
                 <label for="html2">&lt;!doctype&gt;</label>
             </div>
             <div class="tag3">
-                <label for="html3">&lt;!-- --&gt;</label>
+                <label for="html3">&lt;meta&gt;</label>
+            </div>
+            <div class="tag4">
+                <label for="html4">&lt;a&gt;</label>
+            </div>
+            <div class="tag5">
+                <label for="html5">&lt;strong&gt;&lt;strong&gt;</label>
+            </div>
+            <div class="tag6">
+                <label for="html6">&lt;u&gt;&lt;/u&gt;</label>
+            </div>
+            <div class="tag7">
+                <label for="html7">&lt;h1~h6&gt;</label>
+            </div>
+            <div class="tag8">
+                <label for="html8">&lt;br&gt;</label>
+            </div>
+            <div class="tag9">
+                <label for="html9">&lt;p&gt;</label>
+            </div>
+            <div class="tag10">
+                <label for="html10">&lt;img&gt;</label>
+            </div>
+            <div class="tag11">
+                <label for="html11">&lt;li&gt;&lt;/li&gt;</label>
+            </div>
+            <div class="tag12">
+                <label for="html12">&lt;ul&gt;&lt;/ul&gt;</label>
+            </div>
+            <div class="tag13">
+                <label for="html13">&lt;ol&gt;&lt;/ol&gt;</label>
+            </div>
+            <div class="tag14">
+                <label for="html14">&lt;title&gt;&lt;/title&gt;</label>
+            </div>
+            <div class="tag15">
+                <label for="html15">&lt;font ~&gt;&lt;/font&gt;</label>
+            </div>
+            <div class="tag16">
+                <label for="html16">&lt;!-- --&gt;</label>
             </div>
         </section>
+        <!-- html이란? -->
         <input id="html1"  type="checkbox"/>
         <ul class="content">
                 HTML 은 Hyper Text Markup Language 약어로 HyperText(웹 페이지에서 다른 페이지로 이동할 수 있도록 하는 것) 기능을 가진 문서를 만드는 언어입니다. 
                 다시 말해, 구조를 설계할 때 사용되는 언어로 hyper link 시스템을 가지고 있으며, 흔히 말하는 웹 페이지를 위한 마크업 언어라고 할 수 있습니다.
                 태그(tag)
         </ul>
+        <!-- doctype태그에 관한 내용 -->
         <input id="html2" type="checkbox"/>
         <ul class="content">
-            doctype에 대한 내용집어넣기
+            DOCTYPE 선언은 html 문서에서 &lt;html&gt; 태그를 정의하기 전에 가장
+            먼저 선언되어야만 하는 태그입니다.
         </ul>
+        <!-- meta 태그에 관한 내용 -->
         <input id="html3" type="checkbox"/>
         <ul class="content">
-            html주석에 관한 내용
+        &lt;meta&gt; 태그는 해당 문서에 대한 정보인 메타데이터(metadata)를 정의할 때 사용합니다.
+        &lt;meta&gt; 요소는 &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt;, &lt;title&gt; 요소와 같은 다른 메타데이터 관련 요소
+        들이 나타낼 수 없는 다양한 종류의 메타데이터를 제공할 때 사용되며, 이렇게 제공된 정보는 브라우저나
+        검색 엔진, 다른 웹 서비스에서 사용하게 됩니다. 이러한 &lt;meta&gt; 요소는 언제나 <head> 요소 내부에
+        위치해야 합니다. 만약 name 속성이나 http-equiv 속성이 명시되었다면 반드시 content 속성도 함께 
+        명시되어야 하며, 반대로 두 속성이 명시되지 않았다면 content 속성 또한 명시될 수 없습니다.
+        HTML5에서는 &lt;meta&gt; 요소를 통해 웹 페이지에서 사용자가 볼 수 있는 영역인 뷰포트(viewport)를 
+        제어할 수 있도록 name 속성에 viewport 속성값을 제공하고 있습니다.
+        </ul>
+        <!-- 다음은 태그 a에 관한 내용 -->
+        <input id="html4" type="checkbox"/>
+        <ul class="content">
+            &lt;a&gt; 태그는 하나의 페이지에서 다른 페이지를 연결할 때 사용하는 하이퍼링크(hyperlink)를 정의할 때 사용합니다.
+        </ul>
+        <!-- 다음은 태그 strong에 관한 내용-->
+        <input id="html5" type="checkbox"/>
+        <ul class="content">
+            &lt;strong&gt; 태그는 해당 콘텐츠의 중요성이나 심각함, 긴급함 등을 강조할 때 사용합니다.
+                브라우저는 일반적으로 &lt;strong&gt; 요소의 콘텐츠를 굵은 텍스트로 표현합니다.
+        </ul>
+        <!-- 다음은 태그 u에 관한 내용-->
+        <input id="html6" type="checkbox"/>
+        <ul class="content">
+            <h1>&lt;u&gt; 태그는 철자가 틀린 단어나 중국어의 고유 명사처럼 문체상 일반적인 텍스트와는 달라야만 
+                하는 텍스트를 표현할 때 사용합니다.</h1>
+        </ul>
+        <!-- 다음은 태그 h1~h6에 관한 내용-->
+        <input id="html7" type="checkbox"/>
+        <ul class="content">
+            &lt;h1&gt; ~ &lt;h6&gt; 태그는 HTML 문서에서 제목(heading)을 정의할 때 사용합니다.
+            &lt;h1&gt; 요소가 가장 중요한 제목을 정의하고, &lt;h6&gt; 요소가 가장 덜 중요한 제목을 정의합니다.
+        </ul>
+        <!-- 다음은 태그 br에 관한 내용-->
+        <input id="html8" type="checkbox"/>
+        <ul class="content">
+            &lt;br&gt; 태그는 텍스트 내의 줄바꿈(line-break)을 정의할 때 사용합니다.<br>
+            HTML 소스 코드 내에서는 엔터(Enter)를 사용하여 줄바꿈을 실시하여도 브라우저 화면에 실제로 적용되지는 않습니다.<br>
+            따라서 &lt;br&gt; 요소는 주소(address)나 시(poem) 등 줄바꿈이 중요한 텍스트에 유용하게 사용됩니다.<br>
+            &lt;br&gt; 요소는 빈 태그(empty)로, 종료 태그가 존재하지 않습니다.
+        </ul>
+        <!-- 이건 p태그에 관한 내용 -->
+        <input id="html9" type="checkbox"/>
+        <ul class="content">
+            &lt;p&gt; 태그는 문단(paragraph)을 정의할 때 사용합니다.
+            브라우저는 자동으로 &lt;p&gt; 요소의 위쪽과 아래쪽에 약간의 여백을 추가합니다.
+            이러한 여백은 CSS의 margin 속성을 사용하여 조정할 수 있습니다.
+        </ul>
+        <!-- img 태그에 관한 내용 -->
+        <input id="html10" type="checkbox"/>
+        <ul class="content">
+            &lt;img&gt; 태그는 HTML 문서에서 이미지(image)를 정의할 때 사용합니다.
+            &lt;img&gt; 요소로 정의된 이미지는 HTML 문서에 직접 삽입되는 것이 아니라, HTML 문서에 이미지가 링크되는 형태입니다.
+            즉, &lt;img&gt; 요소는 이렇게 참조된 이미지를 위한 일종의 수용 공간을 만들어 주는 것입니다.
+            &lt;img&gt; 요소에는 src 속성과 alt 속성을 반드시 명시해야만 합니다.
+        </ul>
+        <!-- li 태그에 관한 내용 -->
+        <input id="html11" type="checkbox"/>
+        <ul class="content">
+            
+        </ul>
+        <!-- ul태그에 관한 내용 -->
+        <input id="html12" type="checkbox"/>
+        <ul class="content">
+             
+        <!-- ol태그에 관한 내용 -->
+        </ul>
+        <input id="html13" type="checkbox"/>
+        <ul class="content">
+            여기 내용은 태그 추가
+        <!-- title 태그에 관한 내용 -->
+        </ul>
+        <input id="html14" type="checkbox"/>
+        <ul class="content">
+            여기 내용은 태그 추가
+        </ul>
+        <!-- font 태그에 관한 내용 -->
+        </ul>
+        <input id="html15" type="checkbox"/>
+        <ul class="content">
+            여기 내용은 태그 추가
+        </ul>
+        <!-- html주석에 관한 내용 -->
+        <input id="html15" type="checkbox"/>
+        <ul class="content">
+            주석이란(comment)이란 소스 코드에 개발자가 해당 코드 부분의 이해를 돕는
+            설명을 추가하거나 디버깅을 위해 삽입한 구문을 의미한다.이러한 주석 태그는 
+            브라우저가 해석하지 않으므로 브라우저 화면에서는 확인할 수 없지만, 개발자 본인이나 
+            다른 사람이 나중에 소스 코드를 수정하거나 분석하려고 할 때 유용하게 사용될 수 있습니다.
         </ul>
         </div>
         </div>
+        <h5>※얇게 배운거 위주로 하는거라 영양가가 떨어질 수 있으나 워크북 작성하면서 
+            웹을 만드는데 큰 의의를 둔 작업※</h5>
     </body>
 </html>
